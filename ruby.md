@@ -22,6 +22,21 @@ eval "$(rbenv init -)"
 
 3. Close your terminal window and open a new one.
 
+
+## Installing Ruby
+
+1. Now install the current version of Ruby with
+
+```
+rbenv install 2.7.1
+```
+
+2. We will also need to set this new ruby version as our default version. We can do this with: 
+
+```shell
+rbenv global 2.7.1
+```
+
 4. we can test to see if we're using rbenv by typing the command in terminal:
 
 ```shell
@@ -35,24 +50,9 @@ whit should return a line that looks something like this:
 /Users/<YourUsernameHere>/.rbenv/shims/ruby
 
 ```
-
-## Installing Ruby
-
-1. Now install the current version of Ruby with
-
-```
-rbenv install 2.6.4
-```
-
-2. We will also need to set this new ruby version as our default version. We can do this with: 
-
-```shell
-rbenv global 2.6.4
-```
-
-we can check this with:
+we can check the ruby version with:
 ```shell
 rbenv versions
 ```
 
-we should see an asterisk next to `2.6.4`
+we should see an asterisk next to `2.7.1`

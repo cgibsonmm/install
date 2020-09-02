@@ -37,7 +37,7 @@ rbenv install 2.7.1
 rbenv global 2.7.1
 ```
 
-4. we can test to see if we're using rbenv by typing the command in terminal:
+We can test to see if we're using rbenv by typing the command in terminal:
 
 ```shell
 which ruby
